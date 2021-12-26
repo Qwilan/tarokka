@@ -8,7 +8,7 @@ import data from '../../data.json';
 import DungeonMasterView from '../DungeonMasterView/DungeonMasterView';
 import PlayerView from '../PlayerView/PlayerView';
 
-const defaultArtworkKey = 'forbidden-lore';
+const defaultArtworkKey = 'gale-force-nine-colorized';
 
 Modal.setAppElement('#root');
 
