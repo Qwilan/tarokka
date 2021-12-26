@@ -22,5 +22,5 @@ jobs:
           script: |
             cd ~/tarokka
             git pull
-            sudo npm ci
+            sudo yarn
             sudo npm run build
