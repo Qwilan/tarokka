@@ -135,7 +135,7 @@ class PlayerView extends React.Component<PlayerViewProps, PlayerViewState> {
      * @memberof PlayerView
      */
     public render = (): JSX.Element => {
-        document.title = `Tarokka`;
+        document.title = `Тарокка`;
 
         return (
             <React.Fragment>
@@ -144,7 +144,7 @@ class PlayerView extends React.Component<PlayerViewProps, PlayerViewState> {
                     <p>This message will close automatically.</p>
                 </Modal>
 
-                <DungeonMasterViewButton onClick={this.sendDataWithDelay} />
+                {/* <DungeonMasterViewButton onClick={this.sendDataWithDelay} /> */}
 
                 <div id="player-view">
                     <div id="cards" className={this.getArtworkKey()}>
